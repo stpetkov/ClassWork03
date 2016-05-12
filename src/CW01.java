@@ -13,7 +13,7 @@ if(number<0){
 	{ System.out.println("Negative Odd");
 	}
 	}
-else{
+else if(number>0){
 	if(number%2==0){
 		System.out.println("Positive Even");
 		}
@@ -21,6 +21,7 @@ else{
 		{ System.out.println("Positive Odd");
 		}
 		}
+else{ System.out.print("Zero");}
 }
 	}
 
