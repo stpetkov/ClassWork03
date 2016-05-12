@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CW02 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in,"UTF-8");
 		int number=sc.nextInt();
 		if(number >=1 && number <=5){
 			if(number%2==0){System.out.println("Четно");}
